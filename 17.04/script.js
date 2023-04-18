@@ -21,7 +21,7 @@ let card2_h2 = document.createElement("h3");
 let card2_p = document.createElement("p");
 card2_p.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
 let card2_link = document.createElement("a");
-second_link.setAttribute("href", "#");
+card2_link.setAttribute("href", "#");
 card2_link.textContent = "Read More >>"
 
 
@@ -65,7 +65,7 @@ parentDiv3.append(div4)
 parentDiv3.append(card3_h2);
 parentDiv3.append(card3_p);
 parentDiv3.append(card3_link);
-wrapper.append(parentDiv1, parentDiv2, parentDiv3);
+wrap.append(parentDiv1, parentDiv2, parentDiv3);
 
 document.body.append(wrap);
 
